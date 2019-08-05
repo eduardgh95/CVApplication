@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_menu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/img_custom"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_item_education"
+        android:layout_marginLeft="10dp"
+        android:layout_alignTop="@+id/txt_profile_ocup"
+
+        />
+
+
+    <TextView
+        android:id="@+id/txt_profile_ocup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_experience_title"
+        android:layout_toRightOf="@+id/img_custom"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_profile_work"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_experience_title"
+        android:layout_toRightOf="@+id/img_custom"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/txt_profile_ocup"
+        />
+
+    <TextView
+        android:id="@+id/txt_profile_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_experience_title"
+        android:layout_toRightOf="@+id/img_custom"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:layout_below="@+id/txt_profile_work"
+        />
+
+
+</RelativeLayout>

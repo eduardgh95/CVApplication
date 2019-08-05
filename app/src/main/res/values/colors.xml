@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorMenuBottomActive">#FFFFFF</color>
+    <color name="colorMenuBottomInactive">#4f5b62</color>
+    <color name="colorMenuBottom">#263238</color>
+    <color name="colorFirstSlider">#99001d</color>
+    <color name="colorSecondSlider">#00ca00</color>
+    <color name="colorThirdSlider">#00548c</color>
+
+    <color name="colorBlack">#000</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorGray">#808080</color>
+
+
+</resources>

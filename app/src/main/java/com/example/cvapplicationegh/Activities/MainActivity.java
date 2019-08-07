@@ -64,11 +64,10 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.nav_my_profile:
                         menuBottom.setSelectedItemId(R.id.nav_profile);
                         break;
-                    case R.id.nav_recomend:
-                        Intent intentRecomend= new Intent (MainActivity.this, RecomendationsSliderActivity.class);
-                        startActivity(intentRecomend);
-
-                        break;
+                    //case R.id.nav_recomend:
+                       // Intent intentRecomend= new Intent (MainActivity.this, RecomendationsSliderActivity.class);
+                       // startActivity(intentRecomend);
+                       // break;
                     case R.id.nav_about:
                         Intent intentAbout= new Intent (MainActivity.this, AboutActivity.class);
                         startActivity(intentAbout);
